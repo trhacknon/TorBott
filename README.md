@@ -19,7 +19,7 @@
 
 
 ### Status/Social links
-[![Flake8](https://github.com/DedSecInside/TorBot/actions/workflows/flake8.yml/badge.svg)](https://github.com/DedSecInside/TorBot/actions/workflows/flake8.yml)
+[![Flake8](https://github.com/trhacknon/TorBott/actions/workflows/flake8.yml/badge.svg)](https://github.com/trhacknon/TorBott/actions/workflows/flake8.yml)
 [![Slack Invite](https://img.shields.io/badge/Join-Slack-informational?style=flat-square&logo=slack)](https://join.slack.com/t/dedsec-inside/shared_invite/zt-i4jcgj8w-1ecHiSdRubwuppAzz8~yfg)
 [![Code Triage](https://www.codetriage.com/dedsecinside/torbot/badges/users.svg)](https://www.codetriage.com/dedsecinside/torbot)
 [![](https://img.shields.io/badge/Built%20with-❤-orange.svg?style=flat-square)]()
@@ -49,7 +49,7 @@
 (see requirements.txt for more details)
 
 ### Golang Dependencies
-- https://github.com/KingAkeem/gotor (This service needs to be ran in tandem with TorBot)
+- https://github.com/trhacknon/gotor (This service needs to be ran in tandem with TorBot)
 
 ## Installation
 
@@ -99,17 +99,17 @@ optional arguments:
 
 * NOTE: -u is a mandatory for crawling
 
-Read more about torrc here : [Torrc](https://github.com/DedSecInside/TorBoT/blob/master/Tor.md)
+Read more about torrc here : [Torrc](https://github.com/trhacknon/TorBott/blob/master/Tor.md)
 
 ### Using Docker
 
 - Ensure than you have a tor container running on port 9050.
 - Build the image using following command (in the root directory):
 
-    `docker build -f docker/Dockerfile -t dedsecinside/torbot .`
+    `docker build -f docker/Dockerfile -t trhacknon/torbot .`
 - Run the container (make sure to link the tor container as `tor`):
 
-    `docker run --link tor:tor --rm -ti dedsecinside/torbot`
+    `docker run --link tor:tor --rm -ti trhacknon/torbot`
 
 ### Using executable (Linux Only)
 
@@ -176,9 +176,9 @@ We welcome contributions to this project! Here are a few guidelines to follow:
 ## Maintainers
 
 - [X] [PS Narayanan](https://github.com/PSNAppz) - Co-owner
-- [X] [KingAkeem](https://github.com/KingAkeem) - Co-owner
+- [X] [trhacknon](https://github.com/trhacknon) - Co-owner
 
 ... see all [contributors](https://github.com/DedSecInside/TorBot/graphs/contributors)
 
 ## License
-[GNU Public License](https://github.com/DedSecInside/TorBot/blob/dev/LICENSE.md)
+[GNU Public License](https://github.com/trhacknon/TorBott/blob/dev/LICENSE.md)
